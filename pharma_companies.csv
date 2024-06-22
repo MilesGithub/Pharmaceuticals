@@ -1,51 +1,727 @@
-stock ticker,company name,market cap.
-LLY,Eli Lilly,$578.3B
-NVO,Novo Nordisk,$452.8B
-JNJ,Johnson & Johnson,$377.7B
-MRK,Merck,$263.9B
-ABBV,AbbVie,$261.2B
-ROG.SW,Roche,$222.4B
-AZN,AstraZeneca,$212.2B
-NVS,Novartis,$201.1B
-PFE,Pfizer,$181.3B
-AMGN,Amgen,$152.0B
-SNY,Sanofi,$138.5B
-BMY,Bristol-Myers Squibb,$118.0B
-GILD,Gilead Sciences,$96.8B
-VRTX,Vertex Pharmaceuticals,$95.8B
-CVS,CVS Health,$91.9B
-REGN,Regeneron,$91.1B
-ZTS,Zoetis,$80.3B
-GSK,GlaxoSmithKline,$76.6B
-CSL.AX,CSL,$73.3B
-MRK.DE,Merck KGaA,$67.8B
-4568.T,Daiichi Sanky?,$51.7B
-4519.T,Chugai Pharmaceutical,$50.8B
-TAK,Takeda Pharmaceutical,$47.2B
-BAYZF,Bayer,$45.1B
-SGEN,Seagen,$40.2B
-600276.SS,Jiangsu Hengrui Medicine,$38.6B
-BIIB,Biogen,$38.0B
-MRNA,Moderna,$37.4B
-2359.HK,WuXi AppTec,$36.0B
-LONN.SW,Lonza,$34.2B
-SUNPHARMA.NS,Sun Pharmaceutical,$32.8B
-ARGX,Argenx,$29.9B
-WST,West Pharmaceutical,$28.4B
-WXXWY,WuXi Biologics,$26.7B
-HZNP,Horizon Therapeutics,$26.6B
-BNTX,BioNTech,$24.8B
-4503.T,Astellas Pharma,$22.9B
-GMAB,Genmab,$21.1B
-ALNY,Alnylam Pharmaceuticals,$21.0B
-ICLR,ICON plc,$20.3B
-WBA,Walgreens Boots Alliance,$20.1B
-BGNE,BeiGene,$19.5B
-4578.T,Otsuka Holdings,$18.4B
-LH,LabCorp,$17.9B
-RPRX,Royalty Pharma,$16.8B
-BMRN,BioMarin Pharmaceutical,$16.2B
-BAX,Baxter,$16.1B
-UCB.VI,UCB,$16.0B
-4523.T,Eisai,$15.9B
-068270.KS,Celltrion,$15.0B
+"stock symbol","company name","market cap. (billion USD)"
+"LLY","Eli Lilly",840.04
+"NVO","Novo Nordisk",642.16
+"JNJ","Johnson & Johnson",357.99
+"MRK","Merck",331.09
+"ABBV","AbbVie",300.89
+"AZN","AstraZeneca",244.57
+"ROG.SW","Roche",228.55
+"NVS","Novartis",216.53
+"AMGN","Amgen",165.31
+"PFE","Pfizer",157.19
+"VRTX","Vertex Pharmaceuticals",120.95
+"SNY","Sanofi",118.12
+"REGN","Regeneron Pharmaceuticals",116.04
+"CSL.AX","CSL",94.07
+"GILD","Gilead Sciences",88.04
+"BMY","Bristol-Myers Squibb",85
+"GSK","GlaxoSmithKline",83.19
+"ZTS","Zoetis",78.07
+"MRK.DE","Merck KGaA",77.53
+"CVS","CVS Health",77.04
+"4568.T","Daiichi Sankyō",65.3
+"4519.T","Chugai Pharmaceutical",53.17
+"MRNA","Moderna",51.12
+"SUNPHARMA.NS","Sun Pharmaceutical",42.14
+"TAK","Takeda Pharmaceutical",39.92
+"LONN.SW","Lonza",38.49
+"600276.SS","Jiangsu Hengrui Medicine",35.18
+"BIIB","Biogen",32.61
+"UCB.VI","UCB",28.16
+"BAYN.DE","Bayer",27.32
+"068270.KS","Celltrion",26.46
+"ICLR","ICON plc",26.39
+"WST","West Pharmaceutical",24.36
+"ARGX","Argenx",23.44
+"4578.T","Otsuka Holdings",21.72
+"ALNY","Alnylam Pharmaceuticals",20.96
+"BNTX","BioNTech",20.4
+"TEVA","Teva Pharmaceutical Industries",19.3
+"BAX","Baxter",17.47
+"LH","LabCorp",17.3
+"4503.T","Astellas Pharma",17.19
+"BGNE","BeiGene",16.94
+"GMAB","Genmab",16.65
+"RPRX","Royalty Pharma",16.08
+"BMRN","BioMarin Pharmaceutical",15.91
+"SDZ.SW","Sandoz Group",15.76
+"2359.HK","WuXi AppTec",15.59
+"SRPT","Sarepta Therapeutics",15.19
+"CIPLA.NS","Cipla",14.9
+"DIVISLAB.NS","Divis Laboratories",14.37
+"UTHR","United Therapeutics",14.02
+"WBA","Walgreens Boots Alliance",13.78
+"NBIX","Neurocrine Biosciences",13.54
+"ZYDUSLIFE.NS","Zydus Lifesciences",13.08
+"MEDP","Medpace",12.52
+"VTRS","Viatris",12.47
+"INCY","Incyte",12.46
+"3692.HK","Hansoh Pharma",12.4
+"RDY","Dr. Reddy's",12.04
+"TECH","Bio-Techne",11.61
+"TORNTPHARM.NS","Torrent Pharmaceuticals",11.47
+"4523.T","Eisai",11.42
+"INSM","Insmed",11.09
+"REC.MI","Recordati",10.86
+"4507.T","Shionogi",10.67
+"IPN.PA","Ipsen",10.41
+"MANKIND.NS","Mankind Pharma",10.39
+"CTLT","Catalent",10.23
+"4151.T","kyowa Kirin",8.94
+"SOBI.ST","Swedish Orphan Biovitrum",8.93
+"ELAN","Elanco",8.92
+"1099.HK","Sinopharm",8.76
+"AUROPHARMA.NS","Aurobindo Pharma",8.69
+"LUPIN.NS","Lupin Limited",8.52
+"PCVX","Vaxcyte",8.15
+"ITCI","Intra-Cellular Therapies",8.08
+"ROIV","Roivant Sciences",7.9
+"LEGN","Legend Biotech",7.77
+"CERE","Cerevel Therapeutics",7.59
+"ALKEM.NS","Alkem Laboratories",7.34
+"ASND","Ascendis Pharma",7.3
+"ZEAL.CO","Zealand Pharma",6.85
+"ABBOTINDIA.NS","Abbott India",6.83
+"JAZZ","Jazz Pharmaceuticals",6.81
+"BANB.SW","Bachem",6.6
+"HALO","Halozyme Therapeutics",6.56
+"BPMC","Blueprint Medicines",6.53
+"EXEL","Exelixis",6.47
+"WXXWY","WuXi Biologics",6.32
+"RVMD","Revolution Medicines",6.3
+"4528.T","Ono Pharmaceutical",6.3
+"CYTK","Cytokinetics",6.27
+"1177.HK","Sino Biopharmaceutical",6.26
+"IONS","Ionis Pharmaceuticals",6.11
+"APN.JO","Aspen Pharmacare",6.04
+"ORNAV.HE","Orion Corporation",5.95
+"MDGL","Madrigal Pharmaceuticals",5.93
+"GRFS","Grifols",5.9
+"VKTX","Viking Therapeutics",5.82
+"GKOS","Glaukos",5.69
+"SMMT","Summit Therapeutics",5.57
+"HIK.L","Hikma Pharmaceuticals",5.53
+"OGN","Organon",5.36
+"HLUN-B.CO","Lundbeck",5.35
+"BBIO","BridgeBio Pharma",5.12
+"NUVL","Nuvalent",5.12
+"IBRX","ImmunityBio",5.02
+"KRYS","Krystal Biotech",4.99
+"BIOCON.NS","Biocon",4.96
+"CRSP","CRISPR Therapeutics",4.78
+"3320.HK","China Resources Pharmaceutical Group",4.71
+"RIG2.F","Richter Gedeon",4.65
+"APLS","Apellis Pharmaceuticals",4.62
+"ALK-B.CO","ALK-Abelló",4.6
+"4527.T","Rohto Pharmaceutical",4.59
+"CLS.JO","Clicks Group",4.58
+"SFZN.SW","Siegfried Holding",4.56
+"ROVI.MC","Laboratorios Farmaceuticos Rovi",4.5
+"4581.T","Taisho Pharmaceutical",4.48
+"ALPN","Alpine Immune Sciences",4.46
+"ALKS","Alkermes",4.22
+"RNA","Avidity Biosciences",4.2
+"002007.SZ","Hualan Biological Engineering",4.17
+"GLENMARK.NS","Glenmark Pharmaceuticals",4.16
+"GALE.SW","Galenica",4.15
+"000100.KS","Yuhan",4.12
+"TLX.AX","Telix Pharmaceuticals",4.09
+"IMVT","Immunovant",3.99
+"9926.HK","Akeso",3.95
+"ALVO","Alvotech",3.77
+"MRUS","Merus",3.69
+"AXSM","Axsome Therapeutics",3.63
+"4536.T","Santen Pharmaceutical",3.61
+"CRNX","Crinetics Pharmaceuticals",3.59
+"RARE","Ultragenyx",3.59
+"GLAND.NS","Gland Pharma",3.58
+"PRGO","Perrigo",3.51
+"DYN","Dyne Therapeutics",3.48
+"IPCALAB.NS","Ipca Laboratories",3.45
+"HCM","HUTCHMED",3.22
+"OLK","Olink Holding",3.18
+"ARWR","Arrowhead Pharmaceuticals",3.17
+"VIRP.PA","Virbac SA",3.15
+"CORT","Corcept Therapeutics",3.13
+"ACLX","Arcellx",3
+"FOLD","Amicus Therapeutics",2.99
+"BHVN","Biohaven Pharmaceutical",2.96
+"XENE","Xenon Pharmaceuticals",2.83
+"PTCT","PTC Therapeutics",2.8
+"IDYA","IDEAYA Biosciences",2.8
+"LAURUSLABS.NS","Laurus Labs",2.78
+"GERN","Geron",2.76
+"MOR","Morphosys",2.74
+"TGTX","TG Therapeutics",2.73
+"SWTX","SpringWorks Therapeutics",2.68
+"4015.SR","Jamjoom Pharmaceuticals Factory Company",2.63
+"4967.T","KOBAYASHI Pharmaceutical",2.61
+"GPCR","Structure Therapeutics",2.6
+"NATCOPHARM.NS","Natco Pharma",2.57
+"AGIO","Agios Pharmaceuticals",2.57
+"RYTM","Rhythm Pharmaceuticals",2.55
+"ADMA","ADMA Biologics",2.55
+"ACAD","ACADIA Pharmaceuticals",2.53
+"BHC","Bausch Health",2.49
+"PPLPHARMA.NS","Piramal Pharma",2.48
+"BION.SW","BB Biotech",2.43
+"MLTX","MoonLake Immunotherapeutics",2.42
+"NTLA","Intellia Therapeutics",2.34
+"CLDX","Celldex Therapeutics",2.32
+"INDV","Indivior PLC",2.25
+"IOVA","Iovance Biotherapeutics",2.24
+"ALM.MC","Almirall",2.19
+"VCEL","Vericel",2.19
+"APGE","Apogee Therapeutics",2.14
+"JANX","Janux Therapeutics",2.12
+"RXRX","Recursion Pharmaceuticals",2.1
+"CGON","CG Oncology",2.09
+"NVAX","Novavax",2.06
+"AMRX","Amneal Pharmaceuticals",2.05
+"APLLTD.NS","Alembic Pharmaceuticals",2.05
+"RCKT","Rocket Pharmaceuticals",2.04
+"AMPH","Amphastar Pharmaceuticals",1.98
+"VERA","Vera Therapeutics",1.96
+"KYMR","Kymera Therapeutics",1.96
+"PTGX","Protagonist Therapeutics",1.89
+"SANOFI.NS","Sanofi India Limited",1.89
+"BEAM","Beam Therapeutics",1.89
+"4587.T","PeptiDream",1.85
+"CPRX","Catalyst Pharmaceuticals",1.84
+"ZLAB","Zai Lab",1.83
+"FUSN","Fusion Pharmaceuticals",1.83
+"MRVI","Maravai LifeSciences",1.82
+"IMCR","Immunocore",1.8
+"PROK","ProKidney",1.76
+"BAVA.CO","Bavarian Nordic",1.74
+"GLPG","Galapagos NV",1.73
+"ARVN","Arvinas",1.73
+"HRMY","Harmony Biosciences",1.71
+"SNDX","Syndax Pharmaceuticals",1.7
+"KROS","Keros Therapeutics",1.68
+"NAMS","NewAmsterdam Pharma Company",1.62
+"TARO","Taro Pharmaceutical",1.62
+"AKRO","Akero Therapeutics",1.6
+"KURA","Kura Oncology",1.6
+"EVO","Evotec",1.59
+"008930.KS","Hanmi Pharmaceutical",1.53
+"SLNO","Soleno Therapeutics",1.52
+"NMRA","Neumora Therapeutics",1.52
+"MIRM","Mirum Pharmaceuticals",1.51
+"DVAX","Dynavax Technologies",1.5
+"SUPN","Supernus Pharmaceuticals",1.49
+"BIO.F","Biotest",1.45
+"BLTE","Belite Bio",1.45
+"AVDL","Avadel Pharmaceuticals",1.44
+"ARDX","Ardelyx",1.44
+"MORF","Morphic Therapeutic",1.43
+"GRANULES.NS","Granules India",1.42
+"BCYC","Bicycle Therapeutics",1.41
+"MNKD","MannKind Corp",1.39
+"FAGR.BR","Fagron",1.39
+"TLRY","Tilray",1.37
+"JUBLPHARMA.NS","Jubilant Pharmova",1.36
+"BCRX","BioCryst Pharmaceuticals",1.32
+"4516.T","Nippon Shinyaku",1.32
+"KNSA","Kiniksa Pharmaceuticals",1.32
+"NRIX","Nurix Therapeutics",1.3
+"IMTX","Immatics",1.27
+"C43.F","Cosmo Pharmaceuticals",1.26
+"ANIP","ANI Pharmaceuticals",1.23
+"SYRE","Spyre Therapeutics",1.22
+"XNCR","Xencor",1.22
+"SANA","Sana Biotechnology",1.22
+"VRNA","Verona Pharma",1.22
+"FAE.MC","Faes Farma",1.21
+"VETO.PA","Vetoquinol",1.21
+"DAWN","Day One Biopharmaceuticals",1.2
+"FDMT","4D Molecular Therapeutics",1.19
+"PRTA","Prothena",1.16
+"PPGN.SW","PolyPeptide Group",1.14
+"IRON","Disc Medicine",1.09
+"TNGX","Tango Therapeutics",1.08
+"CALT","Calliditas Therapeutics",1.05
+"STAR.NS","Strides Pharma",1.04
+"COLL","Collegium Pharmaceutical",1.04
+"CNTA","Centessa Pharmaceuticals",1.03
+"PHVS","Pharvaris",1.03
+"AUTL","Autolus Therapeutics",1.02
+"NEULANDLAB.NS","Neuland Laboratories",1.01
+"ELVN","Enliven Therapeutics",1.01
+"CGEM","Cullinan Therapeutics",1
+"INVA","Innoviva",0.99
+"TARS","Tarsus Pharmaceuticals",0.99
+"ARQT","Arcutis Biotherapeutics",0.98
+"OCUL","Ocular Therapeutix",0.97
+"IRWD","Ironwood Pharmaceuticals",0.97
+"COGT","Cogent Biosciences",0.96
+"SLN","Silence Therapeutics",0.95
+"DNA","Ginkgo Bioworks",0.94
+"LQDA","Liquidia Technologies",0.93
+"SPARC.NS","SPARC",0.92
+"RLAY","Relay Therapeutics",0.92
+"2070.SR","SPIMACO (Saudi Pharmaceutical Industries and Medical Appliances Corporation)",0.92
+"GYRE","Gyre Therapeutics",0.91
+"FDC.NS","FDC India",0.9
+"TYRA","Tyra Biosciences",0.9
+"4506.T","Sumitomo Pharma",0.88
+"MARKSANS.NS","Marksans Pharma",0.87
+"ABCL","AbCellera",0.85
+"ABVX","Abivax",0.84
+"ETNB","89bio",0.84
+"LBPH","Longboard Pharmaceuticals",0.81
+"VRDN","Viridian Therapeutics",0.8
+"MESO","Mesoblast",0.8
+"SPRY","ARS Pharmaceuticals",0.79
+"AUPH","Aurinia Pharmaceuticals",0.79
+"RAPP","Rapport Therapeutics",0.78
+"PRTC","PureTech Health",0.77
+"NUVB","Nuvation Bio",0.76
+"IMNM","Immunome",0.75
+"HROW","Harrow Health",0.74
+"STOK","Stoke Therapeutics",0.74
+"ARCT","Arcturus Therapeutics",0.74
+"CVAC","Curevac",0.73
+"PRME","Prime Medicine",0.72
+"PRAX","Praxis Precision Medicines",0.71
+"CRGX","CARGO Therapeutics",0.68
+"EXAI","Exscientia",0.68
+"CATX","Perspective Therapeutics",0.68
+"SRRK","Scholar Rock Holding",0.67
+"SAGE","Sage Therapeutics",0.67
+"LXRX","Lexicon Pharmaceuticals",0.67
+"PLRX","Pliant Therapeutics",0.66
+"EOLS","Evolus",0.66
+"ANAB","AnaptysBio",0.66
+"OLMA","Olema Pharmaceuticals",0.65
+"HLVX","HilleVax",0.65
+"PHAT","Phathom Pharmaceuticals",0.65
+"WVE","Wave Life Sciences",0.64
+"PHM.MC","Pharma Mar",0.63
+"GHRS","GH Research",0.61
+"4569.T","KYORIN Pharmaceutical",0.61
+"MREO","Mereo BioPharma Group",0.61
+"BOI.PA","Boiron",0.6
+"AVBP","ArriVent BioPharma",0.6
+"MLYS","Mineralys Therapeutics",0.6
+"URGN","UroGen Pharma",0.6
+"ZYME","Zymeworks",0.59
+"RGNX","REGENXBIO",0.59
+"ERAS","Erasca",0.58
+"ABUS","Arbutus Biopharma",0.58
+"AARTIDRUGS.NS","Aarti Drugs",0.56
+"TVTX","Travere Therapeutics",0.56
+"TSHA","Taysha Gene Therapies",0.55
+"PEPG","PepGen",0.55
+"OCS","Oculis Holding AG",0.54
+"SVRA","Savara Pharmaceuticals",0.54
+"ITOS","iTeos Therapeutics",0.53
+"LXEO","Lexeo Therapeutics",0.53
+"ALLO","Allogene Therapeutics",0.53
+"MNMD","Mind Medicine",0.53
+"YMAB","Y-mAbs Therapeutics",0.53
+"ANNX","Annexon",0.52
+"LYEL","Lyell Immunopharma",0.52
+"REPL","Replimune",0.52
+"APLT","Applied Therapeutics",0.52
+"LRMR","Larimar Therapeutics",0.52
+"THRD","Third Harmonic Bio",0.51
+"TRDA","Entrada Therapeutics",0.5
+"VALN","Valneva SE",0.5
+"CMPX","Compass Therapeutics",0.5
+"KALV","KalVista Pharmaceuticals",0.5
+"PHAR","Pharming Group",0.49
+"ORIC","ORIC Pharmaceuticals",0.49
+"HRTX","Heron Therapeutics",0.49
+"MXCT","MaxCyte",0.48
+"CDMO","Avid Bioservices",0.48
+"CTNM","Contineum Therapeutics",0.48
+"ADPT","Adaptive Biotechnologies",0.48
+"SIGA","SIGA Technologies",0.47
+"LENZ","LENZ Therapeutics",0.47
+"OABI","OmniAb",0.47
+"TERN","Terns Pharmaceuticals",0.47
+"HIKAL.NS","Hikal",0.46
+"ILM1.DE","Medios AG",0.46
+"ALT","Altimmune",0.45
+"CRBP","Corbus Pharmaceuticals",0.45
+"NYKD.OL","Nykode Therapeutics",0.45
+"VERV","Verve Therapeutics",0.44
+"EYPT","EyePoint Pharmaceuticals",0.44
+"ALEC","Alector",0.44
+"VYGR","Voyager Therapeutics",0.44
+"IGMS","IGM Biosciences",0.43
+"FATE","Fate Therapeutics",0.43
+"TBPH","Theravance Biopharma",0.43
+"019170.KS","Shinpoong Pharm",0.42
+"EDIT","Editas Medicine",0.42
+"ESPR","Esperion Therapeutics",0.42
+"FULC","Fulcrum Therapeutics",0.42
+"IDIA.SW","Idorsia",0.41
+"CABA","Cabaletta Bio",0.41
+"RNAC","Cartesian Therapeutics",0.41
+"SLRN","ACELYRIN",0.4
+"NGNE","Neurogene",0.4
+"ACIU","AC Immune",0.4
+"ENGN","enGene",0.4
+"TRML","Tourmaline Bio",0.39
+"PGEN","Precigen",0.39
+"NKTX","Nkarta",0.39
+"SEQUENT.NS","Sequent Scientific",0.36
+"INDOCO.NS","Indoco Remedies",0.36
+"AURA","Aura Biosciences",0.36
+"VNDA","Vanda Pharmaceuticals",0.36
+"AVXL","Anavex Life Sciences",0.35
+"TCRX","TScan Therapeutics",0.34
+"OCGN","Ocugen",0.34
+"ALXO","ALX Oncology",0.34
+"EBS","Emergent BioSolutions",0.34
+"ABSI","Absci",0.34
+"ZNTL","Zentalis Pharmaceuticals",0.34
+"EAPI.PA","Euroapi",0.33
+"JSPR","Jasper Therapeutics",0.33
+"IMMP","Immutep",0.33
+"KYTX","Kyverna Therapeutics",0.33
+"KRRO","Korro Bio",0.33
+"MOLN","Molecular Partners",0.32
+"VRCA","Verrica Pharmaceuticals",0.32
+"XERS","Xeris Pharmaceuticals",0.31
+"RPGLIFE.NS","RPG Life Sciences",0.31
+"NAUT","Nautilus Biotechnology",0.31
+"AGEN","Agenus",0.31
+"PROC","Procaps Group",0.3
+"ANRO","Alto Neuroscience",0.3
+"FHTX","Foghorn Therapeutics",0.29
+"CCCC","C4 Therapeutics",0.29
+"AVIR","Atea Pharmaceuticals",0.29
+"XOMA","XOMA",0.28
+"AMRN","Amarin Corporation",0.28
+"MGTX","MeiraGTx",0.28
+"KMDA","Kamada",0.28
+"RVNC","Revance Therapeutics",0.28
+"INZY","Inozyme Pharma",0.28
+"MGNX","MacroGenics",0.27
+"PSTX","Poseida Therapeutics",0.27
+"JULPHAR.AE","Gulf Pharmaceutical Industries",0.27
+"STRO","Sutro Biopharma",0.26
+"MRSN","Mersana Therapeutics",0.26
+"ADCT","ADC Therapeutics",0.25
+"HESTERBIO.NS","Hester Biosciences",0.25
+"ENTA","Enanta Pharmaceuticals",0.25
+"SLDB","Solid Biosciences",0.25
+"TNYA","Tenaya Therapeutics",0.24
+"CRMD","Cormedix",0.24
+"AQST","Aquestive Therapeutics",0.23
+"RENB","Renovaro Biosciences",0.23
+"OMER","Omeros Corporation",0.23
+"ADAP","Adaptimmune Therapeutics",0.23
+"OBIO","Orchestra BioMed",0.23
+"ATAI","Atai Life Sciences",0.22
+"MACK","Merrimack Pharmaceuticals",0.22
+"QURE","uniQure",0.22
+"GLUE","Monte Rosa Therapeutics",0.22
+"INBX","Inhibrx",0.22
+"SKYE","Skye Bioscience",0.22
+"ZURA","Zura Bio",0.22
+"ATNM","Actinium Pharmaceuticals",0.22
+"EPIX","ESSA Pharma",0.22
+"AVCT.L","Avacta Group",0.22
+"RANI","Rani Therapeutics",0.21
+"NKTR","Nektar Therapeutics",0.21
+"SCLX","Scilex Holding",0.21
+"PRLD","Prelude Therapeutics",0.21
+"INO","Inovio Pharmaceuticals",0.21
+"GLSI","Greenwich LifeSciences",0.21
+"STTK","Shattuck Labs",0.21
+"CDXS","Codexis",0.21
+"ALDX","Aldeyra Therapeutics",0.21
+"CDXC","ChromaDex",0.21
+"ACRV","Acrivon Therapeutics",0.2
+"RZLT","Rezolute",0.2
+"CYBN","Cybin",0.2
+"NBTX","Nanobiotix",0.2
+"PYXS","Pyxis Oncology",0.2
+"CHRS","Coherus BioSciences",0.19
+"TSVT","2seventy bio",0.19
+"DSGN","Design Therapeutics",0.19
+"AKBA","Akebia Therapeutics",0.19
+"TRVI","Trevi Therapeutics",0.19
+"CLLS","Cellectis",0.19
+"ABEO","Abeona Therapeutics",0.19
+"GRPH","Graphite Bio",0.19
+"QTTB","Q32 Bio",0.18
+"GBIO","Generation Bio",0.18
+"ZVRA","Zevra Therapeutics",0.18
+"THRX","Theseus Pharmaceuticals",0.18
+"IPHA","Innate Pharma",0.18
+"OPT","Opthea",0.18
+"OTLK","Outlook Therapeutics",0.18
+"VTYX","Ventyx Biosciences",0.18
+"BLUE","bluebird bio",0.17
+"ACHV","Achieve Life Sciences",0.17
+"LCTX","Lineage Cell Therapeutics",0.17
+"XFOR","X4 Pharmaceuticals",0.17
+"RIGL","Rigel Pharmaceuticals",0.17
+"ALIM","Alimera Sciences",0.17
+"CRVO","CervoMed",0.16
+"RGLS","Regulus Therapeutics",0.16
+"CNTX","Context Therapeutics",0.16
+"XBIT","XBiotech",0.16
+"TELO","Telomir Pharmaceuticals",0.16
+"LFCR","Lifecore Biomedical",0.15
+"CAPR","Capricor Therapeutics",0.15
+"RPTX","Repare Therapeutics",0.15
+"SYRS","Syros Pharmaceuticals",0.15
+"IVVD","Invivyd",0.15
+"GOSS","Gossamer Bio",0.15
+"INMB","INmune Bio",0.15
+"GALT","Galectin Therapeutics",0.15
+"SCPH","scPharmaceuticals",0.15
+"VIGL","Vigil Neuroscience",0.15
+"PBYI","Puma Biotechnology",0.14
+"ZOM","Zomedica Pharmaceuticals",0.14
+"ATOS","Atossa Therapeutics",0.14
+"IVA","Inventiva",0.14
+"ELEV","Elevation Oncology",0.14
+"ADVM","Adverum Biotechnologies",0.14
+"PRQR","ProQR",0.14
+"ABOS","Acumen Pharmaceuticals",0.14
+"KOD","Kodiak Sciences",0.14
+"ADAG","Adagene",0.14
+"IMAB","I-Mab Biopharma",0.14
+"ANL","Adlai Nortye",0.13
+"OMGA","Omega Therapeutics",0.13
+"TVGN","Tevogen Bio",0.13
+"LIFE","aTyr Pharma",0.13
+"BLISSGVS.NS","Bliss GVS Pharma",0.13
+"GTHX","G1 Therapeutics",0.13
+"NVCT","Nuvectis Pharma",0.13
+"SGMT","Sagimet Biosciences",0.13
+"VXRT","Vaxart",0.13
+"HOWL","Werewolf Therapeutics",0.13
+"KNTE","Kinnate Biopharma",0.12
+"MDWD","MediWound",0.12
+"OPTN","OptiNose",0.12
+"KPTI","Karyopharm Therapeutics",0.12
+"AMLX","Amylyx Pharmaceuticals",0.12
+"MCRB","Seres Therapeutics",0.12
+"SCTL","Societal CDMO",0.12
+"VERU","Veru",0.11
+"LSB","LakeShore Biopharma",0.11
+"ACET","Adicet Bio",0.11
+"FGEN","FibroGen",0.11
+"CRVS","Corvus Pharmaceuticals",0.11
+"CTXR","Citius Pharmaceuticals",0.11
+"RAPT","RAPT Therapeutics",0.11
+"ASRT","Assertio Therapeutics",0.11
+"ARMP","Armata Pharmaceuticals",0.11
+"BOLD","Boundless Bio",0.11
+"DERM","Journey Medical",0.1
+"BYSI","BeyondSpring",0.1
+"CTMX","CytomX Therapeutics",0.1
+"IMUX","Immunic",0.1
+"DBVT","DBV Technologies",0.1
+"ALLK","Allakos",0.1
+"INCR","InterCure",0.1
+"PDSB","PDS Biotechnology",0.1
+"ORMP","Oramed Pharmaceuticals",0.09
+"SGMO","Sangamo Therapeutics",0.09
+"COYA","Coya Therapeutics",0.09
+"RLMD","Relmada Therapeutics",0.09
+"IFRX","InflaRx",0.09
+"VTGN","VistaGen Therapeutics",0.09
+"ATHA","Athira Pharma",0.09
+"AFMD","Affimed",0.09
+"NECLIFE.NS","Nectar Lifesciences",0.09
+"PLX","Protalix BioTherapeutics",0.09
+"ALVR","AlloVir",0.09
+"PMVP","PMV Pharmaceuticals",0.08
+"IKNA","Ikena Oncology",0.08
+"ACRS","Aclaris Therapeutics",0.08
+"VOR","Vor Biopharma",0.08
+"TLSA","Tiziana Life Sciences",0.08
+"CLSD","Clearside Biomedical",0.08
+"ANIX","Anixa Biosciences",0.08
+"VSTM","Verastem Oncology",0.08
+"CMRX","Chimerix",0.08
+"IOBT","IO Biotech",0.08
+"GRTS","Gritstone bio",0.08
+"ONCY","Oncolytics Biotech",0.08
+"SPRO","Spero Therapeutics",0.07
+"SCYX","SCYNEXIS",0.07
+"MIST","Milestone Pharmaceuticals",0.07
+"LPTX","Leap Therapeutics",0.07
+"MRNS","Marinus Pharmaceuticals",0.07
+"BCAB","BioAtla",0.07
+"ENTX","Entera Bio",0.07
+"GNLX","Genelux",0.07
+"SLS","Sellas Life Sciences",0.07
+"CVM","Cel-Sci",0.07
+"SER","Serina Therapeutics",0.07
+"MAIA","MAIA Biotechnology",0.07
+"VANI","Vivani Medical",0.07
+"MNOV","MediciNova",0.07
+"ALRN","Aileron Therapeutics",0.07
+"TIL","Instil Bio",0.07
+"INTS","Intensity Therapeutics",0.07
+"CELU","Celularity",0.07
+"ANVS","Annovis Bio",0.07
+"CUE","Cue Biopharma",0.07
+"DTIL","Precision BioSciences",0.07
+"KRON","Kronos Bio",0.06
+"TSBX","Turnstone Biologics",0.06
+"BNTC","Benitec Biopharma",0.06
+"HOOK","HOOKIPA Pharma",0.06
+"ANTX","AN2 Therapeutics",0.06
+"THTX","Theratechnologies",0.06
+"GNTA","Genenta Science",0.06
+"PASG","Passage Bio",0.06
+"RMTI","Rockwell Medical",0.06
+"IXHL","Incannex Healthcare",0.06
+"OVID","Ovid Therapeutics",0.06
+"MURA","Mural Oncology",0.05
+"RPHM","Reneo Pharmaceuticals",0.05
+"IMMX","Immix Biopharma",0.05
+"EGRX","Eagle Pharmaceuticals",0.05
+"RGC","Regencell Bioscience",0.05
+"BRNS","Barinthus Biotherapeutics",0.05
+"BLRX","BioLineRx",0.05
+"CASI","CASI Pharmaceuticals",0.05
+"LVTX","Lava Therapeutics",0.05
+"LPCN","Lipocine",0.05
+"CRIS","Curis",0.05
+"KZR","Kezar Life Sciences",0.05
+"NOTV","Inotiv",0.05
+"TARA","Protara Therapeutics",0.05
+"VTVT","vTv Therapeutics",0.05
+"TPST","Tempest Therapeutics",0.05
+"AVTE","Aerovate Therapeutics",0.04
+"OCEA","Ocean Biomedical",0.04
+"LTRN","Lantern Pharma",0.04
+"RAIN","Rain Therapeutics",0.04
+"DARE","Dare Bioscience",0.04
+"CTSO","Cytosorbents",0.04
+"BTAI","BioXcel Therapeutics",0.04
+"AEON","AEON Biopharma",0.04
+"IMRX","Immuneering",0.04
+"CARM","Carisma Therapeutics",0.04
+"OKYO","Okyo Pharma",0.04
+"AADI","Aadi Bioscience",0.04
+"OCUP","Ocuphire Pharma",0.04
+"ECOR","electroCore",0.04
+"ATRA","Atara Biotherapeutics",0.04
+"MTNB","Matinas BioPharma",0.04
+"ICAD","iCAD",0.04
+"INKT","MiNK Therapeutics",0.04
+"FBIO","Fortress Biotech",0.04
+"RFL","Rafael Holdings",0.04
+"EYEN","Eyenovia",0.04
+"LIAN","LianBio",0.03
+"XLO","Xilio Therapeutics",0.03
+"ACST","Acasti Pharma",0.03
+"PTN","Palatin Technologies",0.03
+"QNCX","Quince Therapeutics",0.03
+"NRXP","NRx Pharmaceuticals",0.03
+"AGE","AgeX Therapeutics",0.03
+"COCP","Cocrystal Pharma",0.03
+"IPA","ImmunoPrecise Antibodies",0.03
+"JAN","JanOne",0.03
+"VYNE","VYNE Therapeutics",0.03
+"BCLI","BrainStorm Cell Therapeutics",0.03
+"APM","Aptorum Group",0.03
+"VIRX","Viracta Therapeutics",0.02
+"BIOR","Biora Therapeutics",0.02
+"VAXX","Vaxxinity",0.02
+"NERV","Minerva Neurosciences",0.02
+"UBX","Unity Biotechnology",0.02
+"AIM","AIM ImmunoTech",0.02
+"EQ","Equillium",0.02
+"SLGL","Sol-Gel Technologies",0.02
+"GDTC","CytoMed Therapeutics",0.02
+"TXMD","TherapeuticsMD",0.02
+"APRE","Aprea Therapeutics",0.02
+"NNVC","NanoViricides",0.02
+"SPRB","Spruce Biosciences",0.02
+"JAGX","Jaguar Health",0.02
+"ONTX","Onconova Therapeutics",0.02
+"ITRM","Iterum Therapeutics",0.02
+"BIAF","bioAffinity Technologies",0.02
+"NYMX","Nymox Pharmaceutical",0.02
+"IBIO","iBio",0.02
+"LUMO","Lumos Pharma",0.02
+"VINC","Vincerx Pharma",0.02
+"LGVN","Longeveron",0.02
+"SYBX","Synlogic",0.02
+"AYTU","Aytu BioScience",0.02
+"VBIV","VBI Vaccines",0.02
+"GLYC","GlycoMimetics",0.02
+"SRNEQ","Sorrento Therapeutics",0.02
+"LYRA","Lyra Therapeutics",0.02
+"TLIS","Talis Biomedical",0.02
+"TLPH","Talphera",0.02
+"KALA","Kala Pharmaceuticals",0.02
+"CARA","Cara Therapeutics",0.02
+"BFRG","Bullfrog AI",0.01
+"APTO","Aptose Biosciences",0.01
+"CANF","Can Fite Biopharma",0.01
+"MNPR","Monopar Therapeutics",0.01
+"PIRS","Pieris Pharmaceuticals",0.01
+"SNTI","Senti Biosciences",0.01
+"RDHL","Redhill Biopharma",0.01
+"ONVO","Organovo",0.01
+"TCRT","Alaunos Therapeutics",0.01
+"ADXS","Advaxis",0.01
+"IMNN","Imunon",0.01
+"ERNA","Eterna Therapeutics",0.01
+"BNOX","Bionomics",0.01
+"VCNX","Vaccinex",0.01
+"CVKD","Cadrenal Therapeutics",0.01
+"PULM","Pulmatrix",0.01
+"ASLN","ASLAN Pharmaceuticals",0.01
+"TTNP","Titan Pharmaceuticals",0.01
+"XBIO","Xenetic Biosciences",0.01
+"CYCN","Cyclerion Therapeutics",0.01
+"NCNA","NuCana",0.01
+"OGEN","Oragenics",0.01
+"HEPA","Hepion Pharmaceuticals",0.01
+"EFTR","eFFECTOR Therapeutics",0.01
+"TNXP","Tonix Pharmaceuticals",0.01
+"ALBT","Avalon GloboCare",0.01
+"EVOK","Evoke Pharma",0.01
+"AVRO","AVROBIO",0.01
+"MGRX","Mangoceuticals",0.01
+"HOTH","Hoth Therapeutics",0
+"BFRI","Biofrontera",0
+"PRTG","Portage Biotech",0
+"TRVN","Trevena",0
+"ADIL","Adial Pharmaceuticals",0
+"MNK","Mallinckrodt Pharmaceuticals",0
+"MYMD","MyMD Pharmaceuticals",0
+"GMDA","Gamida Cell",0
+"LIPO","Lipella Pharmaceuticals",0
+"GNPX","Genprex",0
+"AZTR","Azitra",0
+"ENSC","Ensysce Biosciences",0
+"SNOA","Sonoma Pharmaceuticals",0
+"CING","Cingulate",0
+"SNGX","Soligenix",0
+"PHIO","Phio Pharmaceuticals",0
+"RVLP","RVL Pharmaceuticals",0
+"PTPI","Petros Pharmaceuticals",0
+"CYTO","Altamira Therapeutics",0
+"QNRX","Quoin Pharmaceuticals",0
+"THAR","Tharimmune",0
+"AGRX","Agile Therapeutics",0
+"GLMD","Galmed Pharmaceuticals",0
+"PXMD","PaxMedica",0
+"SEEL","Seelos Therapeutics",0
+"ATNF","180 Life Sciences",0
+"PRFX","PainReform",0
+"LSDI","Lucy Scientific Discovery",0
+"BXRX","Baudax Bio",0
+"ACOR","Acorda Therapeutics",0
+"BLPH","Bellerophon Therapeutics",0
+"EVFM","Evofem Biosciences",0
+"AMPE","Ampio Pharmaceuticals",0
+"ENDPQ","Endo International",0
+"CALA","Calithera Biosciences",0
