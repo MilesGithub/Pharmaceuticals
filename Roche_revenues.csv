@@ -11,29 +11,29 @@ Esbriet,pirfenidone,,,,,,,,,,,,,,,,,
 Erivedge,vismodegib,73,74,63,68,60,67,69,73,63,68,69,71,58,64,63,60,53
 Evrysdi,risdiplam,,,8,47,80,163,153,206,226,274,293,326,363,342,360,354,356
 Fuzeon,enfuvirtide,,,,,,,,,,,,,,,,,
-Gazyva/Gazyvaro (obinutuzumab),obinutuzumab,165,145,162,160,155,169,177,177,165,184,190,191,197,205,213,196,213
-Hemlibra (emicizumab),emicizumab,521,482,572,615,661,732,779,850,853,973,952,"1,045","1,034","1,053","1,025","1,035","1,040"
-Herceptin (trastuzumab),trastuzumab,"1,207",993,879,653,755,641,665,633,607,572,493,470,477,401,383,365,364
-Kadcyla (trastuzumab emtansine),trastuzumab emtansine,428,409,458,450,478,481,501,522,511,563,516,490,509,492,485,480,483
-MabThera/Rituxan (rituximab),rituximab,"1,389","1,051","1,003",780,705,674,589,597,564,553,479,479,459,423,378,370,351
-Madopar (levodopa benserazide),levodopa benserazide,98,96,86,81,108,87,93,106,99,90,100,90,87,98,89,81,91
-Mircera (methoxy polyethylene glycol epoetin beta),methoxy polyethylene glycol epoetin beta,126,125,118,101,105,109,117,104,89,102,105,112,105,93,120,108,96
-NeoRecormon (epoetin beta),epoetin beta,65,59,60,55,57,55,62,61,53,53,53,49,51,48,47,44,50
-Ocrevus (ocrelizumab),ocrelizumab,"1,112",964,"1,198","1,052","1,226","1,212","1,283","1,334","1,449","1,461","1,517","1,609","1,636","1,564","1,567","1,614","1,658"
-Pegasys (peginterferon α),peginterferon α,,,,,,,,,,,,,,,,,
-Perjeta (pertuzumab),pertuzumab,"1,011",930,988,954,988,980,"1,006",981,993,"1,068","1,029",997,"1,049","1,033",913,773,936
-Phesgo (pertuzumab trastuzumab hyaluronidase),pertuzumab trastuzumab hyaluronidase,,,7,16,29,67,117,127,146,179,201,214,241,276,300,303,388
-Polivy (polatuzumab vedotin),polatuzumab vedotin,38,45,43,43,43,51,73,80,81,96,113,147,150,203,252,232,250
-Pulmozyme (dornase alfa),dornase alfa,191,161,148,142,139,137,138,152,136,143,135,129,127,111,104,110,112
-Roaccutane/Accutane (isotretinoin),isotretinoin,,,,,,,,,,,,,,,,,
-Rocephin (ceftriaxone),ceftriaxone,,,,,,,,,,,,,,,,,
-Ronapreve (casirivimab and imdevimab),casirivimab and imdevimab,,,,,,,,,,,,,,,,,
-Tarceva (erlotinib),erlotinib,,,,,,,,,,,,,,,,,
-Tamiflu (oseltamivir),oseltamivir,149,37,51,35,24,8,5,21,15,17,25,47,100,17,24,76,63
-Tecentriq (atezolizumab),atezolizumab,644,653,718,723,775,824,878,838,825,933,934,"1,025",920,933,938,975,865
-Vabysmo (faricimab),faricimab,,,,,,,,,21,88,173,309,432,525,656,744,847
-Valcyte (valganciclovir),valganciclovir,,,,,,,,,,,,,,,,,
-Xeloda (capecitabine),capecitabine,,,,,,,,,,,,,,,,,
-Xolair (omalizumab),omalizumab,468,490,493,453,409,478,529,526,456,569,600,583,479,552,570,575,496
-Xofluza (baloxavir marboxil),baloxavir marboxil,,,,,,,,,,,,,,,,,
-Zelboraf (vemurafenib),vemurafenib,,,,,,,,,,,,,,,,,
+Gazyva/Gazyvaro,obinutuzumab,165,145,162,160,155,169,177,177,165,184,190,191,197,205,213,196,213
+Hemlibra,emicizumab,521,482,572,615,661,732,779,850,853,973,952,"1,045","1,034","1,053","1,025","1,035","1,040"
+Herceptin,trastuzumab,"1,207",993,879,653,755,641,665,633,607,572,493,470,477,401,383,365,364
+Kadcyla,trastuzumab emtansine,428,409,458,450,478,481,501,522,511,563,516,490,509,492,485,480,483
+MabThera/Rituxan,rituximab,"1,389","1,051","1,003",780,705,674,589,597,564,553,479,479,459,423,378,370,351
+Madopar,levodopa benserazide,98,96,86,81,108,87,93,106,99,90,100,90,87,98,89,81,91
+Mircera,methoxy polyethylene glycol epoetin beta,126,125,118,101,105,109,117,104,89,102,105,112,105,93,120,108,96
+NeoRecormon,epoetin beta,65,59,60,55,57,55,62,61,53,53,53,49,51,48,47,44,50
+Ocrevus,ocrelizumab,"1,112",964,"1,198","1,052","1,226","1,212","1,283","1,334","1,449","1,461","1,517","1,609","1,636","1,564","1,567","1,614","1,658"
+Pegasys,peginterferon α,,,,,,,,,,,,,,,,,
+Perjeta,pertuzumab,"1,011",930,988,954,988,980,"1,006",981,993,"1,068","1,029",997,"1,049","1,033",913,773,936
+Phesgo,pertuzumab trastuzumab hyaluronidase,,,7,16,29,67,117,127,146,179,201,214,241,276,300,303,388
+Polivy,polatuzumab vedotin,38,45,43,43,43,51,73,80,81,96,113,147,150,203,252,232,250
+Pulmozyme,dornase alfa,191,161,148,142,139,137,138,152,136,143,135,129,127,111,104,110,112
+Roaccutane/Accutane,isotretinoin,,,,,,,,,,,,,,,,,
+Rocephin,ceftriaxone,,,,,,,,,,,,,,,,,
+Ronapreve,casirivimab and imdevimab,,,,,,,,,,,,,,,,,
+Tarceva,erlotinib,,,,,,,,,,,,,,,,,
+Tamiflu,oseltamivir,149,37,51,35,24,8,5,21,15,17,25,47,100,17,24,76,63
+Tecentriq,atezolizumab,644,653,718,723,775,824,878,838,825,933,934,"1,025",920,933,938,975,865
+Vabysmo,faricimab,,,,,,,,,21,88,173,309,432,525,656,744,847
+Valcyte ,valganciclovir,,,,,,,,,,,,,,,,,
+Xeloda,capecitabine,,,,,,,,,,,,,,,,,
+Xolair,omalizumab,468,490,493,453,409,478,529,526,456,569,600,583,479,552,570,575,496
+Xofluza,baloxavir marboxil,,,,,,,,,,,,,,,,,
+Zelboraf ,vemurafenib,,,,,,,,,,,,,,,,,
